@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(107, 91, 201);
+}
+.cabecalho{
+    display: flex;
+    width:  100%;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(179, 141, 240);
+    box-shadow: 0 4px 17px black;
+    position: fixed;
+}
+.logo{
+    width: 65px;
+}
+.navBar{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.navItem{
+    font-size: 18px;
+    color:aliceblue;
+}
+.navItem:hover{
+    cursor: pointer;
+    color: black;
+    transition: 0.3s;
+}
+.inicio{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+.minhaImagem{
+    height: 410px;
+    width: 400px;
+    border-radius: 50%;
+}
+.resumo{
+    color: white;
+}
+.resumo h3{
+    font-size: 30px;
+}
+.resumo h1{
+    font-size: 36px;
+}
+.resumo span{
+    color:rgb(0, 0, 0);
+}
+.resumo p{
+    font-size: 18px;
+}
+.redeSocial{
+    text-decoration: none;
+    color: beige;
+    border: solid 1px rgb(191, 12, 236);
+    padding: 3px 5px;
+    border-radius: 50%;
+    font-size: 24px;
+    text-align: center;
+}
+.sobreMim{
+    width: 100%;
+    padding: 30px;
+}
+.sobreMim h1{
+    font-size: 64px;
+    color: beige;
+    border-bottom: solid 1px black;
+    width: 40%;
+}
+.meuTexto{
+    color: aliceblue;
+    font-size: 24px;
+}
+
+.hobbie{
+    text-align: center;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 20px;
+    margin-top: 50px;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: center;
+}
+.hobbie h1{
+    font-size: 56px;
+    font-weight: 700;
+    color:aliceblue;
+    font-family: serif;
+}
+
+.hobbie-card{
+    height: 200px;
+    background-color: rgb(199, 120, 245);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    justify-content: baseline;
+    transition: all ease 0.5s;
+}
+
+.hobbie-card img{
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+}
+
+.hobbie-card:hover{
+    background-color: rgb(198, 85, 243);
+}
+
+.hobbie-card h2{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(22, 9, 29);
+}
+
+footer{
+    background-color: rgb(179, 141, 240);
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p{
+    margin: 0;
+    font-family: serif;
+    font-size: 16px;
+    font-weight: 500;
+}
